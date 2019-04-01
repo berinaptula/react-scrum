@@ -52,7 +52,6 @@ class CreateTask extends Component {
     });
   };
   submitTask = event => {
-    this.setState({ showTask: true });
     let tasks = this.state.tasks;
     let memberVal = this.state.memberValue;
     let toDoVal = this.state.toDoValue;
@@ -65,7 +64,18 @@ class CreateTask extends Component {
       time: timeVal,
       category: "todo",
       styling:{backgroundColor:"rgb(62, 86, 221)"}
-    })
+    });
+    this.setState({
+      member: '',
+      toDo: '',
+      dod: '',
+      time: '',
+      memberValue : '',
+      toDoValue : '',
+     dodValue : '',
+      timeValue : ''
+      
+    });
     event.preventDefault();
   };
   onDragOver = (e) => {

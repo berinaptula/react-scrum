@@ -5,7 +5,7 @@ School project with React.js
   1. Redirect to *scrum-react* folder folder
   2. From the termianl, run *npm install* which will install all the dependencies to run the project.
   3. In the termianl, simply type "npm start", which will run this project in your local server.
-  4. Enjoy!
+  4. Enjoy!!!
 
 # Functionality
   - Add group members
@@ -17,7 +17,7 @@ School project with React.js
   - Delete tasks by dragging them into trashbin
   
 # Bugs to fix
-  - Fix the bug where after submitting a task, the input fields' value resets to ''.
+  - ***FIXED*** Fix the bug where after submitting a task, the input fields' value resets to ''.
   
 # Extra
   - Make the app responsive
