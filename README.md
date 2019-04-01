@@ -1,6 +1,12 @@
 # react-scrum
 School project with React.js
 
+# How to make it run
+  1. Redirect to *scrum-react* folder folder
+  2. From the termianl, run *npm install* which will install all the dependencies to run the project.
+  3. In the termianl, simply type "npm start", which will run this project in your local server.
+  4. Enjoy!
+
 # Functionality
   - Add group members
   - Add task
